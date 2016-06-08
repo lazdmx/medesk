@@ -1,0 +1,1280 @@
+{
+    "content": [{
+        "content": [{
+            "kinds": [{
+                "free": true,
+                "presets": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+            }],
+            "opts": {
+                "multi": false,
+                "type": "list-text"
+            },
+            "seat": "3444063",
+            "name": "ВАШ",
+            "arch": "arch001",
+            "type": "archetype",
+            "record": {
+                "data": {
+                    "values": ["5"],
+                    "kind": 0
+                },
+                "arch": "arch001",
+                "seat": "3444063"
+            }
+        }, {
+            "kinds": [{
+                "format": "html",
+                "multiline": true,
+                "free": true
+            }],
+            "opts": {
+                "type": "richtext"
+            },
+            "seat": "2208394",
+            "name": "Жалобы пациента на",
+            "arch": "arch001",
+            "type": "archetype",
+            "record": {
+                "data": {
+                    "values": ["<p>фпавап</p>"],
+                    "kind": 0
+                },
+                "arch": "arch001",
+                "seat": "2208394"
+            }
+        }, {
+            "kinds": [{
+                "format": "html",
+                "multiline": true,
+                "free": true,
+                "default": ["<p>Больным считает себя с&nbsp;</p><p>Целенаправленно не обследовался и не лечился.</p><p>Обратился впервые.&nbsp;</p>"]
+            }],
+            "opts": {
+                "type": "richtext"
+            },
+            "seat": "7476174",
+            "name": "Анамнез заболевания",
+            "arch": "arch001",
+            "type": "archetype",
+            "record": {
+                "data": {
+                    "values": ["<p>Больным считает себя с&nbsp;</p><p>Целенаправленно не обследовался и не лечился.</p><p>Обратился впервые.&nbsp;</p>"],
+                    "kind": 0
+                },
+                "arch": "arch001",
+                "seat": "7476174"
+            }
+        }, {
+            "kinds": [{
+                "format": "html",
+                "multiline": true,
+                "free": true,
+                "default": ["<p>Сопутствующие заболевания:</p><p>Травмы:&nbsp;</p><p>Операции:&nbsp;</p>"]
+            }],
+            "opts": {
+                "type": "richtext"
+            },
+            "seat": "3675402",
+            "name": "Анамнез жизни",
+            "arch": "arch001",
+            "type": "archetype",
+            "record": {
+                "data": {
+                    "values": ["<p>Сопутствующие заболевания:</p><p>Травмы:&nbsp;</p><p>Операции:&nbsp;</p>"],
+                    "kind": 0
+                },
+                "arch": "arch001",
+                "seat": "3675402"
+            }
+        }, {
+            "kinds": [{
+                "format": "html",
+                "multiline": true,
+                "free": true,
+                "default": ["<p><span style='color:rgb(0, 0, 0)'>в анамнезе отрицает.</span></p>"]
+            }],
+            "opts": {
+                "type": "richtext"
+            },
+            "seat": "5126918",
+            "name": "Вредные привычки",
+            "arch": "arch001",
+            "type": "archetype",
+            "record": {
+                "data": {
+                    "values": ["<p><span style='color:rgb(0, 0, 0)'>в анамнезе отрицает.</span></p>"],
+                    "kind": 0
+                },
+                "arch": "arch001",
+                "seat": "5126918"
+            }
+        }],
+        "name": "Приемный эпикриз",
+        "seat": "7420631",
+        "type": "group"
+    }, {
+        "content": [{
+            "kinds": [{
+                "format": "html",
+                "multiline": true,
+                "free": true,
+                "default": ["<p>отрицает</p>"]
+            }],
+            "opts": {
+                "type": "richtext"
+            },
+            "seat": "9722763",
+            "name": "Аллергия",
+            "arch": "arch001",
+            "type": "archetype",
+            "record": {
+                "data": {
+                    "values": ["<p>отрицает</p>"],
+                    "kind": 0
+                },
+                "arch": "arch001",
+                "seat": "9722763"
+            }
+        }],
+        "name": "АЛЛЕРГИЯ",
+        "seat": "5251777",
+        "type": "group"
+    }, {
+        "content": [{
+            "kinds": [{
+                "free": true,
+                "default": ["отрицает"],
+                "presets": ["отрицает"]
+            }],
+            "opts": {
+                "type": "text"
+            },
+            "seat": "8300180",
+            "name": "Лекарственная непереносимость",
+            "arch": "arch001",
+            "type": "archetype",
+            "record": {
+                "data": {
+                    "values": ["отрицает"],
+                    "kind": 0
+                },
+                "arch": "arch001",
+                "seat": "8300180"
+            }
+        }, {
+            "kinds": [{
+                "free": true,
+                "default": ["отрицает"],
+                "presets": ["отрицает"]
+            }],
+            "opts": {
+                "type": "text"
+            },
+            "seat": "7169987",
+            "name": "Туберкулез ",
+            "arch": "arch001",
+            "type": "archetype",
+            "record": {
+                "data": {
+                    "values": ["отрицает"],
+                    "kind": 0
+                },
+                "arch": "arch001",
+                "seat": "7169987"
+            }
+        }, {
+            "kinds": [{
+                "free": true,
+                "default": ["отрицает"],
+                "presets": ["отрицает", "Гепатит А", "Гепатит Б"]
+            }],
+            "opts": {
+                "type": "text"
+            },
+            "seat": "1272263",
+            "name": "Гепатиты ",
+            "arch": "arch001",
+            "type": "archetype",
+            "record": {
+                "data": {
+                    "values": ["отрицает"],
+                    "kind": 0
+                },
+                "arch": "arch001",
+                "seat": "1272263"
+            }
+        }, {
+            "kinds": [{
+                "free": true,
+                "default": ["отрицает"],
+                "presets": ["отрицает", "I группа", "II группа", "III группа"]
+            }],
+            "opts": {
+                "type": "text"
+            },
+            "seat": "8574471",
+            "name": "Наличие и группа инвалидности",
+            "arch": "arch001",
+            "type": "archetype",
+            "record": {
+                "data": {
+                    "values": ["отрицает"],
+                    "kind": 0
+                },
+                "arch": "arch001",
+                "seat": "8574471"
+            }
+        }, {
+            "kinds": [{
+                "free": true,
+                "default": ["нет"],
+                "presets": ["нет", "ВИЧ", "RV", "ЗППП", "Эпилепсия", "Остеопороз", "Беременность", "заб.Щитовидной", "заб.Сосудов ниж. конечностей", "заб. Крови", "Новообразования", "ГБ", "ОНМК (тип, год)", "ОИМ (год)", "СД (ослож)", "Кардиостимулятор", "АД", "Стентирование", "АКШ"]
+            }],
+            "opts": {
+                "multi": true,
+                "type": "list-text"
+            },
+            "seat": "9310351",
+            "name": "Др.отметки",
+            "arch": "arch001",
+            "type": "archetype",
+            "record": {
+                "data": {
+                    "values": ["нет"],
+                    "kind": 0
+                },
+                "arch": "arch001",
+                "seat": "9310351"
+            }
+        }, {
+            "kinds": [{
+                "free": true,
+                "default": ["нет"],
+                "presets": ["нет", "Антикоагулянты", "Плавикс (ксарелто)", "Тромбоасс", "Аспирин"]
+            }],
+            "opts": {
+                "multi": true,
+                "type": "list-text"
+            },
+            "seat": "5015297",
+            "name": "Принимаемые медикаменты",
+            "arch": "arch001",
+            "type": "archetype",
+            "record": {
+                "data": {
+                    "values": ["нет"],
+                    "kind": 0
+                },
+                "arch": "arch001",
+                "seat": "5015297"
+            }
+        }],
+        "name": "Сигнальные отметки",
+        "seat": "7318163",
+        "type": "group"
+    }, {
+        "content": [],
+        "name": "Объективное исследование пациента",
+        "seat": "5993190",
+        "type": "group"
+    }, {
+        "kinds": [{
+            "constraints": {
+                "step": 1
+            },
+            "units": "sm"
+        }],
+        "opts": {
+            "type": "number"
+        },
+        "seat": "9233176",
+        "name": "Рост",
+        "arch": "arch002",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": [167],
+                "kind": 0
+            },
+            "arch": "arch002",
+            "seat": "9233176"
+        }
+    }, {
+        "kinds": [{
+            "constraints": {
+                "step": 1
+            },
+            "units": "kg"
+        }],
+        "opts": {
+            "type": "number"
+        },
+        "seat": "3729641",
+        "name": "Масса тела",
+        "arch": "arch002",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": [52],
+                "kind": 0
+            },
+            "arch": "arch002",
+            "seat": "3729641"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["удовлетворительное"],
+            "presets": ["удовлетворительное"]
+        }],
+        "opts": {
+            "multi": false,
+            "type": "list-text"
+        },
+        "seat": "4614762",
+        "name": "Общее состояние",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["удовлетворительное"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "4614762"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["ясное"],
+            "presets": ["ясное", "сопор", "кома", "измененное"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "2921952",
+        "name": "Сознание",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["ясное"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "2921952"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["активное"],
+            "presets": ["активное", "вынужденное"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "3921960",
+        "name": "Положение",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["активное"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "3921960"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["не увеличены"],
+            "presets": ["не увеличены", "безболезненны", "увеличены", "болезненны"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "9267454",
+        "name": "Периферические лимфатические узлы и щитовидная железа",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["не увеличены"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "9267454"
+        }
+    }, {
+        "kinds": [{
+            "constraints": {
+                "step": 1
+            },
+            "units": "per/min",
+            "default": [60]
+        }],
+        "opts": {
+            "optional": false,
+            "cloneable": false,
+            "type": "number"
+        },
+        "seat": "8949890",
+        "name": "Исследование пульса",
+        "arch": "arch002",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": [60],
+                "kind": 0
+            },
+            "arch": "arch002",
+            "seat": "8949890"
+        }
+    }, {
+        "kinds": [{
+            "constraints": {
+                "step": 1
+            },
+            "units": "beats/min",
+            "default": [60]
+        }],
+        "opts": {
+            "optional": true,
+            "type": "number"
+        },
+        "seat": "5606853",
+        "name": "Частоты сердцебиений",
+        "arch": "arch002",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": [60],
+                "kind": 0
+            },
+            "arch": "arch002",
+            "seat": "5606853"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["соответствует пульсу"],
+            "presets": ["соответствует пульсу", "патологической пульсации периферических (центральных) сосудов визуально и пальпаторно не выявлено ", "перкуторные границы сердца в норме", "тоны сердца ясные, чистые"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "2646489",
+        "name": "Частоты сердцебиений",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["соответствует пульсу"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "2646489"
+        }
+    }, {
+        "kinds": [{
+            "format": "html",
+            "multiline": true,
+            "free": true,
+            "default": ["<p>артериальное давление - &nbsp;&nbsp; /&nbsp;&nbsp; &nbsp; рт.ст.</p><p>Одинаково на обеих верхних конечностях.</p>"]
+        }],
+        "opts": {
+            "type": "richtext"
+        },
+        "seat": "3791640",
+        "name": "Измерение артериального давления на периферических артериях",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["<p>артериальное давление - &nbsp;&nbsp; /&nbsp;&nbsp; &nbsp; рт.ст.</p><p>Одинаково на обеих верхних конечностях.</p>"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "3791640"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["развита удовлетворительно", "соответствует типу телосложения и возрасту пациента", "мышечный тонус и физическая сила симметричы, равномерны"],
+            "presets": ["развита удовлетворительно", "соответствует типу телосложения и возрасту пациента", "мышечный тонус и физическая сила симметричы, равномерны", "килевидная деформация грудной клетки", "ладьевидная деформация грудной клетки", "бочкообразная грудная клетка"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "3973216",
+        "name": "Костно-мышечная система",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["развита удовлетворительно", "соответствует типу телосложения и возрасту пациента", "мышечный тонус и физическая сила симметричы, равномерны"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "3973216"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["нет комментариев"],
+            "presets": ["болезненность паравертебральных точек в шейном отделе", "болезненность паравертебральных точек в грудном отделе", "болезненность паравертебральных точек в поясничном отделе", "нет комментариев", "ассиметрия", "кифоз", "сколиоз", "гиперлордоз"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "1590769",
+        "name": "Позвоночник",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["нет комментариев"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "1590769"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["нет комментариев"],
+            "presets": ["отек", "объем движения в суставе", "нет комментариев", "правый", "левый"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "3526975",
+        "name": "Суставы",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["нет комментариев"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "3526975"
+        }
+    }, {
+        "content": [],
+        "name": "Особенности поведения и неврологический статус:",
+        "seat": "9753526",
+        "type": "group"
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["адекватное"],
+            "presets": ["адекватное", "вялый", "астеннизирован", "фиксирован на своих жалобах"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "2480899",
+        "name": "Поведение",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["адекватное"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "2480899"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["нет"],
+            "presets": ["нет"]
+        }],
+        "opts": {
+            "type": "text"
+        },
+        "seat": "9172640",
+        "name": "Судорог ",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["нет"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "9172640"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["нет"],
+            "presets": ["нет", "эссенциальный"]
+        }],
+        "opts": {
+            "type": "text"
+        },
+        "seat": "1605008",
+        "name": "Тремор",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["нет"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "1605008"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["не изменены"],
+            "presets": ["не изменены", "снижены", "не помнит ближайшие события"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "244071",
+        "name": "Память и внимание",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["не изменены"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "244071"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["не выявлено"],
+            "presets": ["не выявлено", "монопорез", "парапарез", "гемипарез", "тетрапарез", "паралич", "парез"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "284352",
+        "name": "Двигательные нарушения",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["не выявлено"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "284352"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["чувствительность сохранена"],
+            "presets": ["чувствительность сохранена", "гипостезия", "гиперэстизия", "парестезии"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "1890011",
+        "name": "Чувствительные нарушеня",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["чувствительность сохранена"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "1890011"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["не выявлены"],
+            "presets": ["не выявлены", "походка обычная", "походка атактичная", "походка паретичная", "пальце-носовая проба ", "пяточно-коленная проба"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "898093",
+        "name": "Координационные нарушения",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["не выявлены"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "898093"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["устойчив"],
+            "presets": ["устойчив", "не устойчив", "пошатывается", "с тенденцией к падению"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "4985361",
+        "name": "В позе Ромберга",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["устойчив"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "4985361"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["D=S, фотореакции живые"],
+            "presets": ["D=S, фотореакции живые", "Анизокория"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "8854596",
+        "name": "Зрачки",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["D=S, фотореакции живые"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "8854596"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["нет"],
+            "presets": ["нет", "установочный", "горизонтальный", "вертикальный", "ротаторный"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "5806410",
+        "name": "Нистагм",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["нет"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "5806410"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["нет"],
+            "presets": ["нет", "есть"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "6462847",
+        "name": "Диплопия",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["нет"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "6462847"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["не нарушены"],
+            "presets": ["не нарушены"]
+        }],
+        "opts": {
+            "type": "text"
+        },
+        "seat": "3033315",
+        "name": "Конвергенция, аккомодация ",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["не нарушены"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "3033315"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["симметричное"],
+            "presets": ["симметричное", "ассиметричное", "сглажена носогубная складка"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "8555931",
+        "name": "Лицо ",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["симметричное"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "8555931"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["по средней линии"],
+            "presets": ["по средней линии", "девиация"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "1059795",
+        "name": "Расположение языка",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["по средней линии"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "1059795"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["безболезненная"],
+            "presets": ["безболезненная", "болезненная"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "4425604",
+        "name": "Пальпация точек выхода тройничного нерва ",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["безболезненная"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "4425604"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["не нарушены"],
+            "presets": ["не нарушены"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "3176766",
+        "name": "Речь и глотание",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["не нарушены"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "3176766"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["живые"],
+            "presets": ["живые", "снижены", "отсутствуют справа", "отсутствуют слева", "симметричны (D=S)", "асимметричны (D_S)", "оживлены", "расширены рефлексогенные зоны"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "296859",
+        "name": "Сухожильные рефлексы верхних конечностей",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["живые"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "296859"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["живые"],
+            "presets": ["живые", "снижены", "отсутствуют справа", "отсутствуют слева", "симметричны (D=S)", "асимметbрчны (D_S)", "оживлены", "расширены рефлексогенные зоны"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "8591630",
+        "name": "Сухожильные рефлексы нижних конечностей",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["живые"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "8591630"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["вызываются"],
+            "presets": ["вызываются", "не вызываются"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "8510839",
+        "name": "Брюшные рефлексы",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["вызываются"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "8510839"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["не выявлены"],
+            "presets": ["не выявлены"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "6863083",
+        "name": "Патологические рефлексы",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["не выявлены"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "6863083"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["отсутствуют"],
+            "presets": ["симптом Ларрея", "симптом Сообразе", "симптом Лассега", "отсутствуют"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "6518131",
+        "name": "Симптомы натяжения",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["отсутствуют"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "6518131"
+        }
+    }, {
+        "kinds": [{
+            "free": true,
+            "default": ["полный"],
+            "presets": ["полный", "ограничен в"]
+        }],
+        "opts": {
+            "multi": true,
+            "type": "list-text"
+        },
+        "seat": "7447356",
+        "name": "Объем движений",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["полный"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "7447356"
+        }
+    }, {
+        "kinds": [{
+            "format": "html",
+            "multiline": true,
+            "free": true
+        }],
+        "opts": {
+            "type": "richtext"
+        },
+        "seat": "8275993",
+        "name": "Локальный статус",
+        "arch": "arch001",
+        "type": "archetype",
+        "record": {
+            "data": {
+                "values": ["<p>ывапролдцукенгшбьтимсч</p>"],
+                "kind": 0
+            },
+            "arch": "arch001",
+            "seat": "8275993"
+        }
+    }, {
+        "content": [{
+            "kinds": [{
+                "free": true
+            }],
+            "opts": {
+                "optional": false,
+                "cloneable": false,
+                "type": "idc10"
+            },
+            "seat": "6287605",
+            "name": "Диагноз по МКБ и клинический",
+            "arch": "arch003",
+            "type": "archetype",
+            "record": {
+                "data": {
+                    "values": ["M42", "Остеохондроз позвоночника", "sdfdgdfgdfgdfgrverhrtbyjtyrj", "initial"],
+                    "kind": 0
+                },
+                "arch": "arch003",
+                "seat": "6287605"
+            }
+        }],
+        "name": "Клинический диагноз:",
+        "seat": "5391049",
+        "type": "group"
+    }, {
+        "content": [{
+            "kinds": [{
+                "default": [1]
+            }],
+            "opts": {
+                "type": "boolean"
+            },
+            "seat": "147775",
+            "name": "Общеклинический анализ крови",
+            "arch": "arch002",
+            "type": "archetype",
+            "record": {
+                "data": {
+                    "values": [1],
+                    "kind": 0
+                },
+                "arch": "arch002",
+                "seat": "147775"
+            }
+        }, {
+            "kinds": [{
+                "free": true,
+                "default": ["да"],
+                "presets": ["нет", "да"]
+            }],
+            "opts": {
+                "type": "text"
+            },
+            "seat": "7522644",
+            "name": "Коагулограмма",
+            "arch": "arch001",
+            "type": "archetype",
+            "record": {
+                "data": {
+                    "values": ["да"],
+                    "kind": 0
+                },
+                "arch": "arch001",
+                "seat": "7522644"
+            }
+        }, {
+            "kinds": [{
+                "free": true,
+                "default": ["нет"],
+                "presets": ["нет", "исследование уровня содержания Т3", "исследование уровня содержания Т4", "исследование уровня содержания ТТГ (тиреотропного гормона)", "исследование титра антител к тиреопероксидазе (по показаниям)"]
+            }],
+            "opts": {
+                "multi": true,
+                "optional": true,
+                "type": "list-text"
+            },
+            "seat": "5666796",
+            "name": "Исследование уровня содержания гормонов щитовидной железы",
+            "arch": "arch001",
+            "type": "archetype",
+            "record": {
+                "data": {
+                    "values": ["нет"],
+                    "kind": 0
+                },
+                "arch": "arch001",
+                "seat": "5666796"
+            }
+        }, {
+            "kinds": [{
+                "free": true,
+                "default": ["нет"],
+                "presets": ["нет"]
+            }],
+            "opts": {
+                "type": "text"
+            },
+            "seat": "5873436",
+            "name": "Флюорография органов грудной клетки или обзорная рентгенография органов грудной клетки",
+            "arch": "arch001",
+            "type": "archetype",
+            "record": {
+                "data": {
+                    "values": ["нет"],
+                    "kind": 0
+                },
+                "arch": "arch001",
+                "seat": "5873436"
+            }
+        }, {
+            "kinds": [{
+                "free": true,
+                "default": ["нет"],
+                "presets": ["нет", "кардиолог", "гинеколог", "ревматолог"]
+            }],
+            "opts": {
+                "cloneable": true,
+                "type": "text"
+            },
+            "seat": "6686101",
+            "name": "Консультации специалистов",
+            "arch": "arch001",
+            "type": "archetype",
+            "record": {
+                "data": {
+                    "values": ["нет"],
+                    "kind": 0
+                },
+                "arch": "arch001",
+                "seat": "6686101"
+            }
+        }, {
+            "opts": {
+                "cloneable": false,
+                "optional": false
+            },
+            "content": [{
+                "kinds": [{
+                    "free": true,
+                    "default": ["нет"],
+                    "presets": ["нет", "суставов", "позвоночника"]
+                }],
+                "opts": {
+                    "optional": false,
+                    "cloneable": true,
+                    "type": "text"
+                },
+                "seat": "8471460",
+                "name": "Вид и область исследования",
+                "arch": "arch001",
+                "type": "archetype",
+                "record": {
+                    "data": {
+                        "values": ["нет"],
+                        "kind": 0
+                    },
+                    "arch": "arch001",
+                    "seat": "8471460"
+                }
+            }],
+            "name": "Направление на рентгенографию",
+            "seat": "2675038",
+            "type": "group"
+        }, {
+            "content": [{
+                "kinds": [{
+                    "free": true,
+                    "default": ["нет"],
+                    "presets": ["нет", "головного мозга", "артерий головного мозга", "вен головного мозга", "головного мозга и артерий головного мозга", "артерий и вен (сосудов) головного мозга (ангиография и венография) ", "головного мозга, артерий и вен головного мозга ", "головного мозга (Эписиндром) - МР высокого разрешения", "гипофиза (контраст дополнительно)", "глазных орбит и зрительных нервов (два)", "придаточных пазух носа", "2-х височно-нижнечелюстных суставов", "атланто-дентального сочленения", "артерий шеи", "шейного отдела позвоночника + артерии шеи", "щитовидной железы", "краниовертебрального перехода", "шейного отдела позвоночника", "шейного отдела позвоночника + верхнегрудного отдела позвоночника ", "грудного отдела позвоночника", "пояснично-крестцового отдела позвоночника", "крестцово-копчикового отдела позвоночника", "копчика (только дополнительно к пояснично-крестцовому отделу)", "двух отделов позвоночника ", "всего позвоночника ", "всего позвоночника и копчика ", "Миелограмма позвоночника + один отдел позвоночника", "плечевого сустава", "локтевого сустава", " лучезапястного сустава", "кисти", "1-го тазобедренного сустава", "2-х тазобедренных суставов", "коленного сустава", "голеностопного сустава", "стопы", "крестцово-подвздошных суставов", "2-x парных суставов ", "печени", "поджелудочной железы", "желчного пузыря", "селезенки", "брюшной полости (печень, поджелудочная железа, желчный пузырь, селезенка)", "почек", "надпочечников", "брюшной полости и забрюшинного пространства", "органов женского малого таза (мочевой пузырь, яичники, маточные трубы, матка, яичники, влагалище)", "органов мужского малого таза (мочевой пузырь, семявыводящие протоки, простата)", "мягких тканей шеи", "мягких тканей плеча", "мягких тканей бедра", "мягких тканей бедра"]
+                }],
+                "opts": {
+                    "optional": false,
+                    "cloneable": true,
+                    "type": "text"
+                },
+                "seat": "4114694",
+                "name": "Вид и область исследования",
+                "arch": "arch001",
+                "type": "archetype",
+                "record": {
+                    "data": {
+                        "values": ["нет"],
+                        "kind": 0
+                    },
+                    "arch": "arch001",
+                    "seat": "4114694"
+                }
+            }],
+            "opts": {
+                "optional": false
+            },
+            "name": "Направление на МРТ",
+            "seat": "4364794",
+            "type": "group"
+        }],
+        "name": "Рекомендации",
+        "seat": "7262846",
+        "type": "group"
+    }],
+    "type": "group"
+}
